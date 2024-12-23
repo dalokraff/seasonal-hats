@@ -1,0 +1,11 @@
+mod = [
+	"seasonal-hats"
+]
+
+package = [
+	"resource_packages/seasonal-hats/seasonal-hats"
+]
+
+lua = [
+	"scripts/mods/seasonal-hats/*"
+]
