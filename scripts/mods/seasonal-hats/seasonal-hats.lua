@@ -39,6 +39,23 @@ local festag_items = {
             },
         }
     },
+    festag_hat_03 = {
+        name = "festag_hat_03",
+        count = 1,
+        {
+            unit_extension_template = "ai_helmet_unit",
+            unit_name = "units/santa_hat/Hat_Fur_03",
+            drop_reasons = {
+                death = true
+            },
+            attachment_node_linking = {
+                {
+                    source = "j_head",
+                    target = 0,
+                },
+            },
+        }
+    },
     festag_hat_boss_01 = {
         name = "festag_hat_boss_01",
         count = 1,
@@ -83,7 +100,7 @@ local inventories_to_change = {
     opt_skaven_clan_rat_sword = 'festag_hat_01',
     opt_skaven_clan_rat_spear = 'festag_hat_01',
     gutter_runner = 'festag_hat_01',
-    loot_rat_sack = 'festag_hat_01',
+    loot_rat_sack = 'festag_hat_03',
     pack_master = 'festag_hat_01',
     dual_sword = 'festag_hat_01',
     ratlinggun = 'festag_hat_01',
