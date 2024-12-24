@@ -1,0 +1,47 @@
+data = {
+    mat_slots = {
+        slot1 = "mtr_fur"
+        slot2 = "0338AE4A"
+    }
+
+    mat_to_use = "units/beings/player/witch_hunter_captain_skin_02/third_person_base/mtr_fur"
+    mat_package = "units/beings/player/witch_hunter_captain_skin_02/third_person_base/chr_third_person_mesh"
+
+    colors = {
+        slot1 = "textures/santa_hat/FurAlbedo"
+        slot2 = "textures/santa_hat/GreenAlbedo"
+    }
+    normals = {
+        slot1 = "textures/santa_hat/FurNormal"
+        slot2 = "textures/santa_hat/GreenNormal"
+    }
+    MABs = {
+        slot1 = "textures/santa_hat/FurCombine"
+    }
+
+    color_slot = "texture_map_64cc5eb8"
+    norm_slot = "texture_map_861dbfdc"
+    MAB_slot = "texture_map_b788717c"
+
+}
+
+renderables = {
+    "Fur" = {
+		always_keep = false
+		culling = "bounding_volume"
+		generate_uv_unwrap = false
+		occluder = false
+		shadow_caster = true
+		surface_queries = false
+		viewport_visible = true
+	},
+    "Rim" = {
+		always_keep = false
+		culling = "bounding_volume"
+		generate_uv_unwrap = false
+		occluder = false
+		shadow_caster = true
+		surface_queries = false
+		viewport_visible = true
+	},
+}

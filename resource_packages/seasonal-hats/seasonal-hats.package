@@ -9,3 +9,15 @@ package = [
 lua = [
 	"scripts/mods/seasonal-hats/*"
 ]
+
+material = [
+  "materials/*"
+]
+
+unit = [
+  "units/*"
+]
+
+texture = [
+  "textures/*"
+]
