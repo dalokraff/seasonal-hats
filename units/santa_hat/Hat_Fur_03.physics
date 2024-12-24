@@ -1,0 +1,38 @@
+actors = [
+	{
+		enabled = false
+		mass = 1
+		name = "rp_dropped"
+		node = "root_point"
+		shapes = [
+			{
+				material = "default"
+				shape = "Rim"
+				template = "pickup"
+				type = "convex_computed"
+			},
+			{
+				material = "default"
+				shape = "Rim"
+				template = "pickup_interact_collision_shape"
+				type = "convex_computed"
+			},
+		]
+		template = "projectile"
+	},
+	{
+        enabled = true
+        mass = 1
+        name = "Rim"
+        node = "root_point"
+        shapes = [
+            {
+                material = "default"
+                shape = "Rim"
+                template = "enemy_hit_box"
+                type = "convex_computed"
+            }
+        ]
+        template = "keyframed_no_collision"
+    },
+]
