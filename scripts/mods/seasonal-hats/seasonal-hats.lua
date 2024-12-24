@@ -38,6 +38,38 @@ local festag_items = {
                 },
             },
         }
+    },
+    festag_hat_boss_01 = {
+        name = "festag_hat_boss_01",
+        count = 1,
+        {
+            unit_name = "units/santa_hat/Hat_Fur_boss_01",
+            drop_reasons = {
+                death = true
+            },
+            attachment_node_linking = {
+                {
+                    source = "j_head",
+                    target = 0,
+                },
+            },
+        }
+    },
+    festag_hat_boss_02 = {
+        name = "festag_hat_boss_02",
+        count = 1,
+        {
+            unit_name = "units/santa_hat/Hat_Fur_boss_02",
+            drop_reasons = {
+                death = true
+            },
+            attachment_node_linking = {
+                {
+                    source = "j_head",
+                    target = 0,
+                },
+            },
+        }
     }
 }
 
@@ -73,8 +105,12 @@ local inventories_to_change = {
     exalted_axe = 'festag_hat_02',
     marauder_sword_and_shield = 'festag_hat_02',
     marauder_mace = 'festag_hat_02',
-    chaos_sorcerer_vortex = 'festag_hat_01',
-    chaos_sorcerer = 'festag_hat_01',
+    chaos_sorcerer_vortex = 'festag_hat_boss_02',
+    chaos_sorcerer = 'festag_hat_boss_02',
+    rat_ogre = 'festag_hat_boss_01',
+    stormfiend_warpfire = 'festag_hat_boss_01',
+    chaos_troll = 'festag_hat_boss_02',
+    beastmen_minotaur_dual_axes = 'festag_hat_boss_02',
 }
 
 local old_inventory = {}
